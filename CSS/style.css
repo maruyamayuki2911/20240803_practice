@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-flexbox-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: #333333;
+}
+
+h1{
+    margin: auto 0 auto 100px;
+    color: aliceblue;
+}
+
+nav{
+    margin: auto 100px auto 0;
+    color: aliceblue;
+}
+
+nav > a{
+    margin: 20px;
+}
+
+a:link{
+    color: #EEEEEE;
+}
+
+a:visited{
+    color: #EEEEEE;
+}
+
+.top-flexbox-container{
+    display: flex;
+    
+    width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    background: linear-gradient(135deg,rgb(233, 16, 116),rgb(198, 44, 140),rgb(154, 79, 170),rgb(116, 109, 196),rgb(85, 134, 217));
+    border-radius:10px;
+}
+
+.top-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.top-flexbox-container > p{
+    color: #EEEEEE;
+}
